@@ -1,0 +1,32 @@
+.ground{
+  background-color: #B0B0B0;
+}
+.ground h2{
+  padding: 1rem 7rem 1rem 7rem;
+  color: #bd5646;
+}
+
+.container{
+  display: flex;
+  margin: auto;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  text-align: center;
+  padding: 0rem 7rem 0rem 7rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content{
+    flex: 1;
+    cursor: pointer;
+    width: 15rem;
+    background-color: whitesmoke;
+    box-shadow: 1px 0.5px 1px rgba(0, 0, 0, 0.4);
+    padding-bottom: 0.4rem;
+}
+.content img{
+  width: 100%;
+  height: auto;
+}
